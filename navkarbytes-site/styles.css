@@ -1,5 +1,20 @@
 /* NavkarBytes - Enhanced Stylesheet v2-improved */
 
+body {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+main {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
 section {
   max-width: 1200px !important;
   margin: 0 auto !important;
