@@ -152,7 +152,7 @@ button:hover, .btn:hover { background: var(--primary-dark); border-color: var(--
 .hero img { width: 100%; border-radius: 16px; box-shadow: var(--shadow-lg); transition: all 0.3s ease; }
 .hero img:hover { transform: translateY(-8px); box-shadow: var(--shadow-xl); }
 
-.problems-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
+.problems-grid { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
 .problem-btn { padding: 14px 16px; background: #fff7ed; border-left: 4px solid var(--accent); color: #92400e; font-weight: 500; border-radius: 6px; transition: all 0.3s ease; cursor: pointer; border: none; }
 .problem-btn:hover { background: #fef3c7; transform: translateX(6px); box-shadow: var(--shadow-md); }
 
@@ -470,6 +470,8 @@ main {
     font-size: 14px;
     font-weight: 500;
     text-align: center;
+    width: 100%;
+    display: block;
     cursor: pointer;
     transition: all 0.3s ease;
     color: #654321;
